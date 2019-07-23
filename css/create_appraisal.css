@@ -1,0 +1,67 @@
+#slides{  
+  position:relative;
+  overflow:hidden;
+  margin:0 auto;
+  width:70%;
+  height:auto;
+  white-space:nowrap;
+  /*background-color: #fff;*/
+  /*box-shadow: 1px 1px 5px #aaaaaa;*/
+}
+#slides div{
+  position:relative;
+  display:inline-block;
+  margin-right:-4px;
+  white-space:normal;
+  vertical-align:top;
+  *display:inline;
+  background-color: #fff;
+  width:100%;
+}
+.eachslide{
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+/*.next, .prev{
+ margin-top: 30px;
+}*/
+#each_slide{
+  width: 30%;
+}
+.listwrapper{
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.appraisal_container{
+  width: 100%;
+}
+img{
+  width: 60px;
+  height: 60px;
+}
+@media only screen and (max-width:768px){
+  .container-fluid{
+    width: 100%;
+    overflow-x: hidden;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .wrapper{
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .list li a{
+    padding: 10px 10px;
+    display: block;
+    width: 100%;
+  }
+  #slides{
+    width: 98%;
+  }
+  .listwrapper{
+    width: 98%;
+  }
+}
